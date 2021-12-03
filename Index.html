@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login Form</title>
+	<style>
+		body{
+			background-image: url('.//img/nature.jpg')
+			
+		}
+		.login{
+			border: 2px solid blue;
+			width: 350px;
+			padding: 5px;
+			margin: auto;
+           border-radius: 10px;
+           background-color: blue;
+           background-image: url('.//img/sky.jpg');
+           background-repeat: no-repeat;
+			}
+input[type='text'], input[type='Password']{
+text-align: center;
+border-radius: 20px;
+border-color: blue;
+padding: 5px;
+}
+
+input[type='button']{
+	border-radius: 5px;
+}
+textarea[rows], [cols]{
+	color: red ;
+	font-family: Verdana;
+	font-size: 12px;
+	font-style: bold;
+	text-decoration: underline;
+	text-transform: uppercase;
+}
+
+	</style>
+</head>
+<body>
+
+<form>
+	
+	<div class="login">	
+<label >Username</label>
+<input type="text" placeholder="Enter User Name"><br><br>
+<label>Password</label>
+<input type="Password" placeholder="Password"><br><br>
+
+<textarea rows="5" cols="30" style="border-radius: 10px; text-align: left;">Message:</textarea><br><br>
+
+<input type="radio" name="name" value="Male">Male
+<input type="radio" name="name" value="Female">Female
+<br><br>
+
+<a href="introduction.html"><input type="button" value="Submit"></a>
+
+<input type="reset" value="Clear" style="border-radius: 5px;">
+
+</div>
+</form>
+
+</body>
+</html>
